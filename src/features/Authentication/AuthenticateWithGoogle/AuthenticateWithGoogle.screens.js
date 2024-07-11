@@ -46,7 +46,7 @@ const AuthenticateWithGoogle = ({navigation}) => {
             <ButtonContainer
               text="Continue"
               onPress={() => {
-                navigation.navigate('Home');
+                // navigation.navigate('Home');
               }}
             />
           </ButtonWrapper>

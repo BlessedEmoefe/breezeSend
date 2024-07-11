@@ -43,7 +43,7 @@ export const AuthNavigator = () => {
     <Navigator
       //screenOptions={{ headerShown: false }}
       screenOptions={screenOptions}
-      initialRouteName="EnterAddress">
+      initialRouteName="Onboard">
       {/* <AuthenticationStack.Screen name="Splash" component={SplashScreen} /> */}
       <Screen name="Onboard" component={Onboarding} />
       <Screen name="SelectCountry" component={SelectCountry} />

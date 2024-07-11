@@ -9,7 +9,7 @@ import {AuthNavigator} from './auth.navigator';
 import {MainNavigator} from './main.navigator';
 
 export const AppNavigator = () => {
-  const isUser = true;
+  const isUser = false;
 
   return (
     <NavigationContainer>

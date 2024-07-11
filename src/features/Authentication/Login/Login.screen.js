@@ -106,7 +106,7 @@ const Login = ({navigation}) => {
                 leftIcon={<FaceId color={'#fff'} />}
                 text="Fingerprint"
                 onPress={() => {
-                  navigation.navigate('Home');
+                  // navigation.navigate('Home');
                 }}
               />
             </Wrapper>

@@ -43,7 +43,7 @@ const AccessGranted = ({navigation}) => {
             <ButtonContainer
               text="Proceed"
               onPress={() => {
-                navigation.navigate('Home');
+                // navigation.navigate('Home');
               }}
             />
           </ButtonWrapper>
